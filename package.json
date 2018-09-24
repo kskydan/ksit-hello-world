@@ -1,0 +1,22 @@
+{
+  "name": "ksit-hello-world",
+  "version": "0.1.0",
+  "description": "hello world",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "server": "nodemon --watch server --exec babel-node -- server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Skydan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.4"
+  }
+}
